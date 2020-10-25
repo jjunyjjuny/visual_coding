@@ -1,34 +1,33 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
-  font-family: 'Nanum Gothic'
+  font-family: "Nanum Gothic";
 }
 canvas {
   display: block;
 }
 #warp {
-  height: 100%;
   position: relative;
 }
 #content {
   position: absolute;
-  left: 60px; top: 70px;
-  width: 440px
+  left: 60px;
+  top: 70px;
+  width: 440px;
 }
 .text {
   color: white;
-  
 }
 #main_header {
   font-size: 250%;
   font-weight: bold;
-  
 }
-#sub_header{
+#sub_header {
   font-size: 80%;
   line-height: 170%;
 }
-#name{
+#name {
   font-size: 80%;
   text-align: right;
   margin-top: -px;
@@ -36,12 +35,12 @@ canvas {
 }
 .section {
   line-height: 170%;
-  font-size: 90%
+  font-size: 90%;
 }
 #last {
   font-size: 85%;
   text-align: left;
   line-height: 190%;
   margin-top: 8%;
-  font-size: 85%
+  font-size: 85%;
 }
