@@ -1,0 +1,45 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  position: relative;
+  font-family: Helvetica, sans-serif; 
+  
+
+}
+canvas {
+  display: block;
+}
+#title  {
+  margin: 100px 0px 0px 30px;  
+}
+#title > h1 {
+  font-size: 60px
+}
+#title > p {
+  margin: -15px 0px 0px 0px;
+}
+#menual {
+  height: 100%; width: 600px;
+  position: absolute;
+  left: 900px; 
+}
+#menual > #header {
+  margin: 130px 0px 0px 30px;
+  font-size: 150%;
+}
+#menual > #content {
+  margin: -10px 0px 0px 30px;
+}
+#menual > #content > #project_name {
+
+}
+#menual > #content > #project_explain {
+  margin: 60px 0px 0px -15px;
+}
+#menual > #content > #project_explain > ol > li {
+  margin: 20px 0px 0px 0px;
+  font-size: 100%
+}
+
+}
